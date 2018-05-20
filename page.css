@@ -1,0 +1,61 @@
+html {
+  font-size:20px;
+}
+
+body {
+  background-color: gray;
+  background-image: url("modDTMB.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+div {
+    padding: 8px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: navy;	
+    text-shadow: 1px 2px gray;
+}
+
+form { 
+  margin: 0 auto; 
+  position:fixed;
+  top:45%;
+  left:32%;
+  display: inline;
+}
+
+select {
+  border: 2px solid gray;
+  border-radius: 4px;
+
+  padding: .1rem 1rem;
+  white-space: nowrap;
+  box-shadow: 0px 5px 5px rgba(0, 0, 255, 0.2);
+}
+
+input[type=text] {
+  width: 11rem;
+  padding: .1rem;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  direction: rtl
+}
+
+input[type=text]:focus {
+  border: 2px solid blue;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  padding: .1rem 1rem;
+  margin: .3rem .3rem;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+}
